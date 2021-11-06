@@ -1,0 +1,127 @@
+/*h1,
+h2,
+h3,
+h4{
+    color:red;
+    font-size: 69px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: narrower;
+}*/
+h1{
+    color: #1098ad;
+    font-family: sans-serif;
+}
+
+h2{
+    color:#1098ad;
+    font-family: sans-serif;
+}
+
+h2::after{
+    content: "TOP";
+    background-color: orange;
+    font-size: 11px;
+    font-weight: bold;
+    /* display: inline-block;*/
+    position: absolute;
+}
+
+h3{
+    text-align: left;
+    color: #1098ad;
+    font-family: sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p{
+  
+font-family: sans-serif;
+
+}
+
+a{
+    color: #1098ad;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+/*#header-2{
+    color: blue;
+}
+
+#header-3{
+    color: brown;
+}
+
+.hd{
+
+    color: slateblue ;
+
+}
+
+li:nth-child(odd){
+
+    color:green;
+}*/
+
+a:hover{
+    font-size: larger;
+    
+}
+
+a:active{
+
+    background-color: indianred;
+}
+
+/*#page-wrap{
+
+width: 800px;
+margin: 0 auto;
+}*/
+
+.contain{
+    max-width: 500px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+aside{
+
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    background-color: rgb(248, 246, 248);
+    width: 450px;
+    
+}
+
+.border{
+   border-top: 8px solid #1098ad;
+   border-bottom: 8px solid #1098ad;
+  
+}
+
+.white{
+    background-color: rgb(248, 246, 248);
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    
+}
+
+button{
+    margin-left: 900px;
+}
+
+
